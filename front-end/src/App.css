@@ -1,0 +1,143 @@
+.nav-ul li {
+  display: inline-block;
+  padding: 10px !important;
+}
+
+.nav-ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.login {
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.signUp-modal,
+.product,
+.update {
+  margin-left: 30%;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.nav-right {
+  text-align: right;
+}
+.logo {
+  width: 45px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.appButton {
+  margin: 25px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.error-input {
+  color: red;
+  margin-top: -20px;
+  margin-left: 25px;
+  display: block;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.product-list ul {
+  margin: 0;
+}
+
+.search_box {
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+.spinner-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
